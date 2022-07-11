@@ -1,3 +1,3 @@
-module github.com/robherley/go-example
+module github.com/robherley/go-test-example
 
 go 1.18
