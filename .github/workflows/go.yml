@@ -2,7 +2,6 @@ name: Go
 
 on:
   push:
-    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
@@ -20,4 +19,4 @@ jobs:
       run: go build -v ./...
 
     - name: Test
-      uses: robherley/go-test-action@v0.4.1      
+      uses: robherley/go-test-action@main     
