@@ -19,4 +19,4 @@ jobs:
       run: go build -v ./...
 
     - name: Test
-      uses: robherley/go-test-action@robherley/node24
+      uses: robherley/go-test-action@v1
